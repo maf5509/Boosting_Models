@@ -1,0 +1,35 @@
+You now have a fairly substantial starting toolbox of supervised learning methods that you can use to tackle a host of exciting problems. To make sure all of these ideas are organized in your mind, please go through the list of problems below. For each, identify which supervised learning method(s) would be best for addressing that particular problem. Explain your reasoning and discuss your answers with your mentor.
+
+1. Predict the running times of prospective Olympic sprinters using data from the last 20 Olympics.
+This could be a linear regression problem, since the running times are likely to decrease according to 
+some function over time, due to medical advancements and increases in the athletic capacity of the human body.
+
+2. You have more features (columns) than rows in your dataset.
+PCA or the use of a correlation matrix would greatly reduce the number of features and would simplify the 
+dataset down to its most important features.
+Then Random Forest Classifier.
+
+3. Identify the most important characteristic predicting likelihood of being jailed before age 20.
+This could be a good Random Forest Classifier problem.
+Alternatively KNN could be used.
+
+4. Implement a filter to “highlight” emails that might be important to the recipient
+The Naive Bayes Classifier would be a good way to tackle this kind of problem.
+
+5. You have 1000+ features.
+PCA or the use of a correlation matrix would reduce this to a more manageable set. 
+
+6. Predict whether someone who adds items to their cart on a website will purchase the items.
+This could be modeled using logistic regression problem, with the items added, plus other features such as
+time elapsed, time of day, location, device used included in the model. The output would be a simple 
+probablility of purchase.
+
+7. Your dataset dimensions are 982400 x 500
+Again, PCA or the use of a correlation matrix would be the best approach here. 
+
+8. Identify faces in an image.
+For this we could use measurements of facial dimensions and input these into a Random Forest Classifier.
+
+9. Predict which of three flavors of ice cream will be most popular with boys vs girls.
+Logistic regression could solve this with a probability of being a boy as the output. Dummy variables
+would be used for each of the flavors.
